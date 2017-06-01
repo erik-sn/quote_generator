@@ -1,0 +1,47 @@
+@import "./style.scss";
+
+.prompt__container {
+  text-align: center;
+}
+
+#quotes__outer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.quotes__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 750px;
+  margin-top: 25px;
+
+  button {
+    width: 350px;
+  }
+}
+
+.quote__active {
+  min-height: 150px;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 15px;
+}
+
+.quote__marker {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin: 0px 5px;
+}
+
+#quote__author {
+  margin-top: 25px;
+}
+
+.quote__author_text {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-left: 15px;
+}

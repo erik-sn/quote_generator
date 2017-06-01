@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "commonjs",
+        "moduleResolution": "classic",
+        "target": "es5",
+        "lib": ["es5", "es6", "dom"], 
+        "jsx": "react",
+        "typeRoots": [
+            "./node_modules/@types"
+        ]
+    },
+    "types": [
+        "mocha",
+        "node",
+        "react",
+        "react-dom"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist",
+        "coverage",
+        "__tests__"
+    ]
+}

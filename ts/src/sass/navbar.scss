@@ -1,0 +1,43 @@
+@import "./style.scss";
+
+.navbar__container {
+  align-items: center;
+  background: $header-dark;
+  box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, 0.3);
+  display: flex;
+  height: 60px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#navbar__left {
+  display: flex;
+  flex-direction: row;
+}
+
+#navbar__right {
+  float: right;
+}
+
+#navbar__user {
+  max-width: 125px;
+  text-overflow: ellipsis;
+  overflow-x: hidden;
+}
+
+.navbar__item {
+  font-size: 1.5rem;
+  padding: 10px 25px;
+  height: 30px;
+  transition: padding 0.25s ease-in-out;
+
+  @media(max-width: 650px) {
+    font-size: 1rem;
+    padding: 15px 10px;
+  }
+}
+
+.navbar__active {
+  // border-top: 3px solid $font-dark;
+  border-bottom: 3px solid $font-dark;
+}
